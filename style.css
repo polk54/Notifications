@@ -1,0 +1,103 @@
+body{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin-left: 30px;
+  margin-top: 30px;
+  max-width: 800px;
+}
+
+h1{
+  color: #00aced;
+}
+
+p{
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+}
+
+#image{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+#bell{
+  height: 120px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+#clicks{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  background-color: #00aced;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+}
+
+#button1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-radius: 25px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  background: #00aced;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0px 0px 0px;;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+#button2 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-radius: 25px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  background: #8E8E8E;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0px 0px 0px;;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+#button1:hover {
+  background: #0084b4;
+  text-decoration: none;
+}
+
+#button2:hover {
+  background: #606060;
+  text-decoration: none;
+}
+
+#button1:focus {
+  outline:0;
+}
+
+#button2:focus {
+  outline:0;
+}
