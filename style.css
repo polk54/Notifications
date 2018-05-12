@@ -1,18 +1,74 @@
 body{
   font-family: "Helvetica Neue", Arial, sans-serif;
-  margin-left: 30px;
-  margin-top: 30px;
-  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    margin-top: 10px;
+  }
+}
+
+#leftblock{
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  #leftblock{
+    width: 20px;
+    height: 10px;
+  }
+}
+
+#rightblock{
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  #rightblock{
+    width: 20px;
+    height: 10px;
+  }
 }
 
 h1{
   color: #00aced;
+  font-size: 64px;
+  line-height: 56px;
 }
 
 p{
-  font-size: 20px;
-  font-weight: lighter;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   color: black;
+  max-width: 600px;
+}
+
+#statement{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 24px;
+  color: black;
+  max-width: 600px;
+}
+
+#bar{
+  width: 70px;
+  height: 5px;
+  background: #00aced;
+}
+
+@media only screen and (max-width: 600px) {
+  #bar{
+    width: 300px;
+    height: 2px;
+  }
 }
 
 #image{
@@ -100,4 +156,25 @@ p{
 
 #button2:focus {
   outline:0;
+}
+
+footer{
+  position: relative;
+  top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #8E8E8E;
+}
+
+a:link{
+  color: #00aced;
+}
+
+a:visited{
+  color: #00aced;
+}
+a:hover{
+  color: #0084b4;
 }
